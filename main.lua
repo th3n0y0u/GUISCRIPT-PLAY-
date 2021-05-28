@@ -10,18 +10,15 @@ if asc.Value and atp.Value == true then
 	if script.Parent.Frame1.Visible == false then
 			script.Parent.Frame1.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 		if script.Parent.Frame2.Visible == false then
 			script.Parent.Frame2.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 		if script.Parent.PlayButton.Visible == false then
 			script.Parent.PlayButton.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 		
 	script.Parent.Frame1:TweenPosition(UDim2.new(0, 0,0.4, 0))
 	script.Parent.Frame2:TweenPosition(UDim2.new(0.5, 0,0.4, 0))
@@ -31,18 +28,15 @@ else
 		if script.Parent.Frame1.Visible == false then
 			script.Parent.Frame1.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 		if script.Parent.Frame2.Visible == false then
 			script.Parent.Frame2.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 		if script.Parent.PlayButton.Visible == false then
 			script.Parent.PlayButton.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 	end
 end 
 
@@ -62,18 +56,15 @@ script.Parent.MouseButton1Click:connect(function()
 			if script.Parent.Frame1.Visible == false then
 			script.Parent.Frame1.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 		if script.Parent.Parent.Frame2.Visible == false then
 			script.Parent.Parent.Frame2.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 		if script.Parent.Parent.PlayButton.Visible == false then
 			script.Parent.Parent.PlayButton.Visible = true
 		end
-		wait(0.5
-		)
+		wait(0.5)
 		end
 	end
 end)
